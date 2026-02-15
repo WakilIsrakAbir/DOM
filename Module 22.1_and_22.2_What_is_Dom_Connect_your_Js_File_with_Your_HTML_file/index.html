@@ -23,7 +23,7 @@
     <header>
         <h1>This Is My Header no banner</h1>
     </header>
-    <main>
+    <main id="main-container">
         <section id="old-dhaka" class="songs">
             <h1>Welcome to my DOM</h1>
             <p>
@@ -52,14 +52,13 @@
         </section>
 
 
-        <section>
+        <section id="players-container">
             <h1>Players</h1>
-            <ul>
+            <ul id="player-list">
                 <li>RonalDinho </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Neymar</li>
+                <li>Kaka</li>
+                <li>Mascelo</li>
             </ul>
         </section>
     </main>
@@ -102,24 +101,31 @@
 
         // get by className
         const foreignElements = document.getElementsByClassName("foreign");
-        console.log(foreignElements);
+        // console.log(foreignElements);
         for(const element of foreignElements) {
-            console.log(element.innerText); 
+            // console.log(element.innerText); 
         }
 
         // queary selector all
         const spanElement = document.querySelectorAll("#old-dhaka p span");
         for(const span of spanElement) {
-            console.log(span.innerText)
+            // console.log(span.innerText);
         }
         
         // queary selector
         const sElement = document.querySelector("#old-dhaka p span");
-        console.log(sElement);
+        // console.log(sElement);
         
 
     </script>
 
+
+    <script src="./js/cssInJs.js"></script>
+
     <script src="./js/hello.js"></script>
+
+    <script src="./js/child.js"></script>
+
+    <script src="./js/append.js"></script>
 </body>
 </html>

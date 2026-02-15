@@ -1,3 +1,11 @@
 li{
     color: blueviolet;
 }
+
+.section-card {
+    background-color: blanchedalmond;
+    color: red;
+    border: 1px solid green;
+    padding: 5px;
+    margin-bottom: 15px;
+}
